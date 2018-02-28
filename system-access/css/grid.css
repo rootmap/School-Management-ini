@@ -1,0 +1,637 @@
+.container
+{
+	width:auto;
+	height:auto;
+	margin-top:8px;
+}
+
+.headline
+{
+	font-size:30px;
+	color:#c00000;
+	background-color:#7f7f7f;
+	text-align:center;
+	padding:8px 0px 14px;
+	margin-bottom:50px;
+	border-radius:0px 0px 7px 7px;
+}
+
+.back_shade
+{
+	height:20px;
+	background:rgba(0,0,0,0.28);
+	border-radius:7px 7px 0px 0px;
+}
+
+.row
+{
+	width:auto;
+	height:auto;
+	margin-bottom:50px;
+}
+
+.feature_box_container
+{
+	width:auto;
+	height:auto;
+}
+
+.feature_box
+{
+	width:287px;
+	height:160px;
+	background-color:#d8d8d8;
+	padding:10px 5px 17px 14px;
+	position:relative;
+	position:relative;
+	float:left;
+	border-radius:0px 0px 4px 4px;
+}
+
+.feature_box:not(:nth-of-type(3))
+{
+	margin-right:21px;
+}
+
+.container>.feature_box_container>.row>.feature_box>p
+{
+	color:#002060;
+	text-decoration:underline;
+	text-transform:capitalize;
+	padding-left:72px;
+	margin-bottom:12px;
+	position:relative;
+	top:-5px;
+	font-weight:bold;
+}
+
+.feature_box>ul>li
+{
+	padding-left:28px;
+	background:url(../images/extra_images/list_style.png) scroll no-repeat 0px 2px;
+}
+
+.container>.feature_box_container>.row>.feature_box>.feature_box_header
+{
+	width:auto;
+	height:auto;
+	background-color:#d8d8d8;
+	padding:8px 8px 8px 13px;
+	position:absolute;
+	left:-0px;
+	top:-36px;
+	border-radius:4px 4px 0px 0px;	
+}
+
+.container>.feature_box_container>.row>.feature_box>.feature_box_header:after
+{
+	position:absolute;
+	content:'';
+	padding:8px 55px;
+	top:17px;
+	left:81px;
+	height:3px;
+	width:115px;
+	background-color:rgba(0,0,0,0.38);
+	border-radius:0px 4px 0px 0px;
+}
+
+.container>.feature_box_container>.row>.feature_box>.feature_box_header>img
+{
+	width:60px;
+	height:64px;
+}
+
+.container>p
+{
+	color:#002060;
+}
+
+.container>p:first-of-type
+{
+	margin-bottom:2px;
+}
+
+.container>p:nth-of-type(2)
+{
+	margin-bottom:20px;
+}
+
+.container>ul
+{
+	margin-bottom:20px;
+	padding-left:30px;
+}
+
+.container>ul>li
+{
+	color:#7e0000;
+	background:url(../images/extra_images/tick_mark.png) scroll no-repeat 0px 2px;
+	padding-left:27px;
+}
+
+.body>.headline:first-of-type
+{
+	background-color:#00b0f0;
+	border:4px solid #740000;
+	border-radius:12px 12px;
+	padding:12px 0px 8px;
+	color:#c00000;
+	width:530px;
+	margin:0px auto 4px;
+}
+
+.body>.headline:last-of-type
+{
+	background-color:#990000;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:29px;
+	border:2px solid #2d94c4;
+	border-radius:0px;
+	width:340px;
+	padding:12px 0px 6px;
+	margin:0px auto 26px;
+}
+
+.arrow
+{
+	width:140px;
+	margin-left:393px;
+	position:absolute;
+	top:125px;
+}
+
+.arrow + hr
+{
+	margin:0px auto;
+	width:730px;
+	height:13px;
+	background-color:#990000;
+	border:1px solid #2d94c4;
+}
+
+.body>.row
+{
+	position:relative;
+}
+
+.body>.row:nth-of-type(2)
+{
+	margin-bottom:36px;
+	width:730px;
+	position:relative;
+}
+
+.body>.row:nth-of-type(2)>.arrow
+{
+	width:36px;
+}
+
+.body>.row:nth-of-type(2)>.arrow:first-of-type
+{
+	top:-1px;
+	left:-287px;
+}
+
+.body>.row:nth-of-type(2)>.arrow:nth-of-type(2)
+{
+	top:-1px;
+	left:68px;
+}
+
+.body>.row:nth-of-type(2)>.arrow:last-of-type
+{
+	top:-1px;
+	right:-124px;
+}
+
+.body>.row:nth-of-type(3),
+.body>.row:nth-of-type(4),
+.body>.row:nth-of-type(5)
+{
+	margin-bottom:40px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box
+{
+	width:auto;
+	height:auto;
+	background-color:inherit;
+	border:none;
+	padding:0px;
+	position:relative;
+	margin:0px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box:first-of-type
+{
+	left:4px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box:nth-of-type(2)
+{
+	left:84px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box:nth-of-type(3)
+{
+	right:-170px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box_header
+{
+	background-color:/*#62c8ff*/rgba(0, 0, 0, 0.28);
+	padding:15px 5px 13px;
+	width:230px;
+	border-radius:12px 12px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box_header>h4,
+.body>.row:nth-of-type(3)>.feature_box>.feature_box_header>p
+{
+	color:#002060;
+	text-align:center;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box_header>h4
+{
+	font-size:27px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin-bottom:8px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box_header>p
+{
+	text-transform:capitalize;
+	letter-spacing:1px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box
+{
+	width:260px;
+	height:215px;
+	margin:0px;
+	background-color:#e3e3e3;
+	border-radius:6px 6px;
+	padding:18px 7px 10px;
+	float:none;
+	position:relative;
+	left:-19px;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box:after
+{
+	position:absolute;
+	content:"";
+	background:rgba(0,0,0,0.7);
+	z-index:-1;
+	height:5px;
+	width:34%;
+	max-width:300px;
+	top:240px;
+	left:180px;
+	box-shadow:0px 0px 8px 3px rgba(0,0,0,0.7);
+	-webkit-box-shadow:0px 0px 8px 3px rgba(0,0,0,0.7);
+	-moz-box-shadow:0px 0px 8px 3px rgba(0,0,0,0.7);
+	transform:rotate(3deg);
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+}
+
+/*.body>.row:nth-of-type(3)>.feature_box>.effect
+{
+	position:relative;
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.effect:after
+{
+	z-index:-1;
+	position:absolute;
+	content:"";
+	bottom:15px;
+	right:10px;
+	left:auto;
+	width:50%;
+	top:80%;
+	max-width:300px;
+	background:#777;
+	-webkit-box-shadow:0px 15px 10px #777;
+	-moz-box-shadow:0px 15px 10px #777;
+	box-shadow:0px 15px 10px #777;
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+	-ms-transform:rotate(3deg);
+	transform:rotate(3deg);
+}*/
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box>ul>li
+{
+	font-size:12px;
+	
+}
+
+.body>.row:nth-of-type(3)>.feature_box>.feature_box>ul>li:first-of-type
+{
+	color:#002060;
+	font-size:16px;
+	background:url(../images/extra_images/list_style_large.png) scroll no-repeat 0px 1px;
+	margin-bottom:4px;
+}
+
+.body>.row:nth-of-type(4)>.feature_box_header,
+.body>.row:nth-of-type(5)>.feature_box_header
+{
+	background-color:rgba(0, 0, 0, 0.38);
+	padding:15px 0px;
+	width:230px;
+	border-radius:12px 12px;
+	float:left;
+	margin-right:10px;
+	position:relative;
+	top:20px;
+}
+
+.body>.row:nth-of-type(4)>.feature_box_header>h4,
+.body>.row:nth-of-type(4)>.feature_box_header>p,
+.body>.row:nth-of-type(5)>.feature_box_header>h4,
+.body>.row:nth-of-type(5)>.feature_box_header>p
+{
+	text-align:center;
+}
+
+.body>.row:nth-of-type(4)>.feature_box_header>h4,
+.body>.row:nth-of-type(5)>.feature_box_header>h4
+{
+	color:#7030a0;
+	font-size:23px;
+	text-decoration:underline;
+	letter-spacing:1px;
+	margin-bottom:5px;
+}
+
+.body>.row:nth-of-type(4)>.feature_box_header>p,
+.body>.row:nth-of-type(5)>.feature_box_header>p
+{
+	color:#c00000;
+	text-transform:capitalize;
+}
+
+.body>.row:nth-of-type(4)>.feature_box,
+.body>.row:nth-of-type(5)>.feature_box
+{
+	background-color:#D8D8D8;
+	width:340px;
+	height:auto;
+	margin:0px;
+	padding:18px 7px;	
+	border-radius:14px 14px;
+}
+
+.body>.row:last-of-type
+{
+	margin-bottom:0px;
+}
+
+
+/*========= main frame changing =========*/
+
+.body
+{
+	font-family:Arial, Verdana, sans-serif !important;
+}
+
+.body_bottom_left
+{
+	width:auto !important;
+	height:auto !important;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	padding:30px 0px 0px;
+}
+
+.body_bottom_left>p
+{
+	color:#00b0f0;
+	font-size:32px;
+	margin-bottom:20px;
+	position:relative;
+	top:-8px;
+}
+
+.body_bottom_left>a>img
+{
+	height:205px;
+	width:205px;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(194, 194, 194, 0.24);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(194, 194, 194, 0.24);
+	box-shadow: 0px 0px 10px 3px rgba(194, 194, 194, 0.24);
+}
+
+
+/*========= main frame changing =========*/
+
+/*========= SMS Service page starts =========*/
+.body>.header
+{
+	color:#c00000;
+	font-size:21px;
+	padding-top:30px;
+	margin-bottom:30px;
+}
+
+.body>.row_dtl
+{
+	width:auto !important;
+	margin-bottom:45px !important;
+}
+
+.body>.row_dtl>.sub_header
+{
+	color:#002060;
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+.body>.row>.sub_header + p
+{
+	text-align:justify;
+	margin-bottom:45px;
+}
+/*========= SMS Service page ends =========*/
+
+.body>.sub_header
+{
+	font-size:21px;
+}
+
+.body>.row>h3
+{
+	background-color:#f2dbdb;
+	color:#920000;
+	font-size:22px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	line-height:20px;
+	padding:17px 45px;
+	width:220px;
+	margin:0px auto 12px;
+	border:2px solid #79c5e5;
+	border-radius:9px 9px;
+	text-align:center;
+}
+
+.body>.row>.row>.odd
+{
+	background-color:#efd3d2;
+}
+
+.body>.row>.row>.even
+{
+	background-color:rgba(0,0,0,0.28);
+}
+
+.body>.row>.row>.odd,
+.body>.row>.row>.even
+{
+	padding:3px 14px;
+}
+
+.body>.row>.row .left
+{
+	float:left;
+}
+
+.body>.row>.row .right
+{
+	float:right;
+}
+
+.body>.row>.row .left,
+.body>.row>.row .right
+{
+	width:465px;
+	line-height:11px;
+}
+
+.left img, .left p,
+.right img, .right p
+{
+	display:inline-block;
+}
+
+.left img, .right img
+{
+	height:64px; 
+	width:60px;
+	margin-right:18px;
+}
+
+.left p, .right p
+{
+	color:#002060;
+    font-size:18px;
+    text-transform:capitalize;
+	position:relative;
+	top:-10px;
+}
+
+.body>.row>.row .clear
+{
+	height:0px;
+}
+
+.body>.row:first-of-type>.sub_header,
+.body>.row:nth-of-type(6)>.sub_header
+{
+	color:#002060;
+	font-size:18px;
+	margin-bottom:20px;
+	padding-top:30px;
+}
+
+.body>.row:nth-of-type(6)>.sub_header
+{
+	padding-top:0px;
+}
+
+.body>.row_dtl:first-of-type>.sub_header
+{
+	padding-top:0px;
+}
+
+/*========= Payment system page starts =========*/
+
+hr.divider
+{
+	height:1px;
+	border:0px;
+	border-top:1px solid #eaadad;
+	margin:20px 0px;
+}
+
+hr.divider + .row>.sub_header + p
+{
+	margin-bottom:25px;
+}
+
+hr.divider + .row>.row
+{
+	margin-bottom:0px;
+}
+
+hr.divider + .row>.row:first-of-type
+{
+	margin-bottom:25px;
+}
+
+hr.divider + .row>.row>.feature_box
+{
+	background-color:#ffffff;
+	height:auto;
+	width:auto;
+	border:2px solid #000;
+	padding:7px 5px;
+	border-radius:4px 4px;
+	margin-right:18px;
+}
+
+hr.divider + .row>.row:first-of-type>.feature_box:nth-of-type(3)
+{
+	margin-right:0px;
+}
+
+hr.divider + .row>.row>.feature_box>img
+{
+	width:210px;
+	height:70px;
+	margin-bottom:14px;
+}
+
+hr.divider + .row>.row>.feature_box>p
+{
+	text-transform:capitalize;
+	color:#000000;
+	font-size:14px;
+}
+
+hr.divider + .row>.row>.feature_box>p:first-of-type
+{
+
+	margin-bottom:4px;
+	color:#002060;
+}
+
+hr.divider + .row>.row:first-of-type + p
+{
+	margin-bottom:25px;
+}
+
+hr.divider + .row>.row:last-of-type>.feature_box:nth-of-type(2)
+{
+	margin-right:0px;
+}
+
+
+/*========= Payment system page ends =========*/

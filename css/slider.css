@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slide {width: 100%;
+position:relative; 
+z-index:1; }
+
+.slider {
+position: relative; 
+z-index:1;
+width: 930px; 
+margin:0 auto;
+height: auto; 
+overflow: hidden; /*top:50px; left:82px;*/
+}
+.items {display:none;}
+
+.items img
+{
+	width:900px !important;
+}
+
+.banner{
+width: 731px;
+background:url(../images/slider/bg-banner.png) 0 0 no-repeat;
+position:absolute;
+top: 275px; 
+z-index:15; 
+height: 102px;
+right:0; 
+overflow:hidden;
+}
+.banner-inner{padding:30px 0 0 116px;}
+.banner-inner span{
+	font-family: 'Oswald', sans-serif;
+	font-size:24px;
+	line-height:30px;
+	text-transform:uppercase;
+	color:#454545;
+	display:block;
+	}
+	.banner-inner strong{
+		font-weight:normal;
+		color:#2c6642;
+		}
+.banner-inner p{
+	color:#363636;
+	margin:3px 0 0 0;
+	}
+
+
+.pagination {position:absolute;top:440px; z-index:1000; width:100px; height:62px;left:465px; display:none;}
+.pagination li {float:left;	margin: 0 4px 0 0;}
+.pagination a {display:block; width:16px; height:16px; background:url(../images/slider/pagination.png) right 0 no-repeat;}
+.pagination li.current a, .pagination li:hover a{background:url(../images/slider/pagination.png) 0 0 no-repeat;}
+
+/*======================================== Top slider ends here ========================================*/
+
+.slider-container>#slider1
+{
+	margin:0px;
+}
+
+.slider-container .buttons
+{
+	line-height:10px;
+	padding:2px 7px;
+}
+
+.slider-container .next
+{
+    right:8px;
+    left:auto;
+    top:-58px;
+	z-index:10;
+	height:auto;
+	width:auto;
+	background-color:#fc8a58;
+}
+
+.slider-container .prev
+{
+    right:34px;
+    left:auto;
+    top:-58px;
+	z-index:10;
+	height:auto;
+	width:auto;
+	background-color:#fc8a58;
+}
+
+.slider-container .prev:hover,
+.slider-container .next:hover
+{
+	background-color:#ea5615 !important;
+	color:#ffffff !important;
+}
+
+#slider1 .buttons>i
+{
+	position:relative;
+	top:-1px;
+}
+
+.slider-container .overview>li>a
+{
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	z-index:10;
+}
+
+.slider-container .overview>li>a>.img-responsive
+{
+	margin:0px 0px 5px;
+}
+
+.slider-container .overview>li>a .img-thumbnail
+{
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-radius:0px;
+	padding:0px;
+}
+
+#slider1 .overview li img
+{
+	height:91px;
+	width:/*140px*/133px;
+	border-radius:4px 4px;
+	/*position:relative;
+	z-index:15;*/
+}
+
+.slider-container .overview>li>a>p
+{
+	color:#fc8a58;
+	text-transform:capitalize;
+}
+
+.slider-container .overview>li>a:link
+{
+	text-decoration:none;
+	outline:none;
+}
+
+.slider-container .overview>li>a:hove>p
+{
+	background-color:#ea5615 !important;
+}
+
+/*======================================== Mini-slider ends here ========================================*/
+
+#ticker
+{
+	height:198px;
+	padding:2px 0px;
+	overflow:hidden;
+}
+
+#ticker>.list-group
+{
+	margin-bottom:0px;
+	padding-left:0px;
+}
+
+#ticker .list-group-item
+{
+	position:relative;
+	display:block;
+	padding:0px 0px 3px;
+	margin-bottom:5px;
+	background-color:inherit;
+	border:none;
+	border-radius:0px;
+	border-bottom:1px solid #428bca;
+}

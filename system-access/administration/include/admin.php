@@ -1,0 +1,2 @@
+<div class="backgroung_3 width-label-140 padding_3 top_830 text_aling_center position_fixed">
+<a class="text-decoration_underline color_w font_11" title="clik here to view details" href="home.php">More Details(Admin-Home)</a></div>  

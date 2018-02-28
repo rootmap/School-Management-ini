@@ -1,0 +1,2 @@
+[27-Dec-2014 10:32:36 America/New_York] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/dreamste/public_html/Dreams/administration/pdf/download.php on line 6
+[21-Jan-2015 17:09:56 America/New_York] PHP Warning:  is_file() expects parameter 1 to be a valid path, string given in /home/dreamste/public_html/Dreams/administration/pdf/download.php on line 6

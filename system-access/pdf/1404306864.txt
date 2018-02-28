@@ -1,0 +1,9 @@
+Success
+INTERNET BANKING RECIPIENT DETAILS
+STAN / Reference Number 	004933
+Date 	18-Jun-2014
+Time 	16:42:48.8689690
+Transfer From 	1537201990228001
+Transfer To 	6303202501282001
+Amount 	1000
+Description 	 fahad AMSIT

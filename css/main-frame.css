@@ -1,0 +1,630 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*===================== General part starts here =====================*/
+
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Risque);
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif !important;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+#wrapper,
+header,
+.header-content,
+.body-content,
+#footer
+{
+	height:auto;
+	width:auto;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+#wrapper .container
+{
+	width:960px;
+}
+
+/*===================== General part ends here =====================*/
+
+/*===================== Header part starts here =====================*/
+
+header
+{
+	position:relative;
+	background-color:#0b2b14;
+	padding:7px 0px 0px;
+}
+
+header .container>.navbar-header>.navbar-toggle
+{
+	background-color:rgba(0,0,0,0);
+	border:1px solid rgba(212,212,212,1);
+}
+
+header .container>.navbar-header>.navbar-toggle>.icon-bar
+{
+	background-color:rgba(212,212,212,1);
+}
+
+.header-content
+{
+	height:401px;
+	background: #094424;
+	background-image:radial-gradient(400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+	background-image:-webkit-gradient(radial, 400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+	background-image:-webkit-radial-gradient(400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+	background-image:-moz-radial-gradient(400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+	background-image:-o-radial-gradient(400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+	background-image:-ms-radial-gradient(400px 120px, circle farthest-side, #094424 0%, #084323 1%, #0a4525 1%, #084826 6%, #0b4f2a 12%, #0c5029 15%, #0c542e 17%, #0a552c 19%, #0c592f 21%, #0c5b2e 23%, #0d5b31 24%, #0d5b31 25%, #0b5d2f 25%, #0b5e30 27%, #0e6133 32%, #0e6435 32%, #0d6332 34%, #0e6636 37%, #0e6636 45%, #0d6332 47%, #0e6133 52%, #0d6032 54%, #0b5e30 54%, #0b5d2f 57%, #0d5b31 57%, #0d5b31 58%, #0c5b2e 58%, #0c592f 61%, #0a572d 61%, #0b512c 66%, #0d512a 66%, #0b4f2a 70%, #094d28 70%, #0a4c28 73%, #0a4726 75%, #094927 76%, #094424 79%, #094023 91%, #083f20 92%, #093e22 100%);
+}
+
+.header-content>.navbar-default
+{
+	background:none !important;
+	border:none !important;
+	margin:0px;
+}
+
+.header-content>.navbar-default:first-of-type
+{
+	margin:0px 0px 7px 0px;
+}
+
+#logo
+{
+	margin:7px 0px;
+	padding:3px 0px 3px 5px;
+	position:relative;
+}
+
+.icon-badge
+{
+	height:auto;
+	width:auto;
+	display:inline-block;
+	margin:8px 17px 0px 0px;
+}
+
+.icon-badge>.sb.circle
+{
+	background-color:inherit;
+	padding:15px 15px;
+	text-align:center;
+	border:3px solid #8bb89f;
+}
+
+.icon-badge>.sb,
+.sb i,
+.icon-badge>.sb:before,
+.sb i:before,
+.icon-badge>.sb:after,
+.sb i:after {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.icon-badge>.sb.circle:before,
+.sb.circle i:before,
+.icon-badge>.sb:before,
+.sb i:before {
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+}
+
+.icon-badge i
+{
+	font-size:40px;
+	color:#FFFFFF;
+	position:relative;
+	left:2px;
+	top:-3px;
+}
+
+.logo
+{
+	color:#FFFFFF !important;
+	float:none;
+	font-size:16px;
+}
+
+.logo>.name,
+.logo>.moto
+{
+	display:block;
+}
+
+.name
+{
+	font-size:50px;
+	text-transform:capitalize;
+	line-height:70px;
+	display:block;
+	clear:both;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#FFF;
+text-shadow: rgba(245, 245, 255, 0.35) 0 0px 0px, rgba(0, 0, 30, 0.08) 0px 2px 2px, rgba(0, 0, 30, 0.20) 0px 2px 1px, rgba(0, 0, 30, 0.40) 0px 2px 1px, rgba(0, 0, 0, 0.08) -5px 5px 2px;
+
+}
+
+.name_estd
+{
+	font-size:40px;
+	text-align:center;
+	text-transform:capitalize;
+	line-height:50px;
+	display:block;
+	clear:both;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: transparent;
+text-shadow: rgba(245, 245, 255, 0.35) 0 0px 0px, rgba(0, 0, 30, 0.08) 0px 2px 2px, rgba(0, 0, 30, 0.20) 0px 2px 1px, rgba(0, 0, 30, 0.40) 0px 2px 1px, rgba(0, 0, 0, 0.08) -5px 5px 2px;
+
+}
+.moto
+{
+	font-size:12px;
+	letter-spacing:1px;
+	padding:0px 0px 0px 1px;
+}
+
+#secondary-navigation
+{
+	padding:10px 0px 0px 0px;
+}
+
+#secondary-navigation .navbar-form
+{
+	padding:0px;
+	position:relative;
+}
+
+#secondary-navigation .navbar-form .form-control
+{
+	width:240px;
+	padding:6px 42px 6px 12px;
+	border-radius:0px;
+}
+
+#secondary-navigation .navbar-form .btn-default
+{
+	height:100%;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border:none;
+	border-radius:0px;
+	background: #c4a20d;
+	background: -moz-linear-gradient(top, #c4a20d 0%, #c3a10c 24%, #c59d0a 34%, #c19708 48%, #c2960b 52%, #c19507 55%, #be9007 59%, #b88b0a 72%, #af8809 83%, #b38607 86%, #b17e0b 90%, #ac840a 93%, #b27f0c 97%, #a88811 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c4a20d), color-stop(24%,#c3a10c), color-stop(34%,#c59d0a), color-stop(48%,#c19708), color-stop(52%,#c2960b), color-stop(55%,#c19507), color-stop(59%,#be9007), color-stop(72%,#b88b0a), color-stop(83%,#af8809), color-stop(86%,#b38607), color-stop(90%,#b17e0b), color-stop(93%,#ac840a), color-stop(97%,#b27f0c), color-stop(100%,#a88811));
+	background: -webkit-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: -o-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: -ms-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: linear-gradient(to bottom, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4a20d', endColorstr='#a88811',GradientType=0 );
+}
+
+#secondary-navigation .navbar-form .btn-default:hover
+{
+	background: #008137;
+	background: -moz-linear-gradient(top, #008137 0%, #01833d 3%, #01833b 90%, #008139 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008137), color-stop(3%,#01833d), color-stop(90%,#01833b), color-stop(100%,#008139));
+	background: -webkit-linear-gradient(top, #008137 0%,#01833d 3%,#01833b 90%,#008139 100%);
+	background: -o-linear-gradient(top, #008137 0%,#01833d 3%,#01833b 90%,#008139 100%);
+	background: -ms-linear-gradient(top, #008137 0%,#01833d 3%,#01833b 90%,#008139 100%);
+	background: linear-gradient(to bottom, #008137 0%,#01833d 3%,#01833b 90%,#008139 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008137', endColorstr='#008139',GradientType=0 );
+}
+
+#secondary-navigation .navbar-form .btn-default>i
+{
+	color:#FFFFFF;
+}
+
+#main-navigation-horizontal
+{
+	padding:0px;
+	position:relative;
+	border-radius:0px 0px 0px 0px;	
+}
+
+#main-navigation-horizontal,
+#main-navigation-horizontal a,
+#main-navigation-horizontal .dropdown-menu
+{
+	background: #343434;
+	background: -moz-linear-gradient(top, #343434 0%, #353535 9%, #323232 22%, #191919 89%, #1c1c1c 91%, #181818 93%, #1a1a1a 96%, #161616 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#343434), color-stop(9%,#353535), color-stop(22%,#323232), color-stop(89%,#191919), color-stop(91%,#1c1c1c), color-stop(93%,#181818), color-stop(96%,#1a1a1a), color-stop(100%,#161616));
+	background: -webkit-linear-gradient(top, #343434 0%,#353535 9%,#323232 22%,#191919 89%,#1c1c1c 91%,#181818 93%,#1a1a1a 96%,#161616 100%);
+	background: -o-linear-gradient(top, #343434 0%,#353535 9%,#323232 22%,#191919 89%,#1c1c1c 91%,#181818 93%,#1a1a1a 96%,#161616 100%);
+	background: -ms-linear-gradient(top, #343434 0%,#353535 9%,#323232 22%,#191919 89%,#1c1c1c 91%,#181818 93%,#1a1a1a 96%,#161616 100%);
+	background: linear-gradient(to bottom, #343434 0%,#353535 9%,#323232 22%,#191919 89%,#1c1c1c 91%,#181818 93%,#1a1a1a 96%,#161616 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343434', endColorstr='#161616',GradientType=0 );
+}
+
+#main-navigation-horizontal a
+{
+	color:#FFFFFF;
+	font-size:17px;
+	text-transform:capitalize;
+}
+
+/*#main-navigation-horizontal .dropdown-toggle
+{
+	position:relative;
+	z-index:20;
+}*/
+
+#main-navigation-horizontal>.navbar-nav>li>a
+{
+	padding:15px 31px;
+}
+
+#main-navigation-horizontal>.navbar-nav>li:not(:last-of-type)>a
+{
+	border-right:1px solid #000000;
+}
+
+#main-navigation-horizontal a.active,
+#main-navigation-horizontal a:hover
+{
+	background: #c4a20d;
+	background: -moz-linear-gradient(top, #c4a20d 0%, #c3a10c 24%, #c59d0a 34%, #c19708 48%, #c2960b 52%, #c19507 55%, #be9007 59%, #b88b0a 72%, #af8809 83%, #b38607 86%, #b17e0b 90%, #ac840a 93%, #b27f0c 97%, #a88811 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c4a20d), color-stop(24%,#c3a10c), color-stop(34%,#c59d0a), color-stop(48%,#c19708), color-stop(52%,#c2960b), color-stop(55%,#c19507), color-stop(59%,#be9007), color-stop(72%,#b88b0a), color-stop(83%,#af8809), color-stop(86%,#b38607), color-stop(90%,#b17e0b), color-stop(93%,#ac840a), color-stop(97%,#b27f0c), color-stop(100%,#a88811));
+	background: -webkit-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: -o-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: -ms-linear-gradient(top, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	background: linear-gradient(to bottom, #c4a20d 0%,#c3a10c 24%,#c59d0a 34%,#c19708 48%,#c2960b 52%,#c19507 55%,#be9007 59%,#b88b0a 72%,#af8809 83%,#b38607 86%,#b17e0b 90%,#ac840a 93%,#b27f0c 97%,#a88811 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4a20d', endColorstr='#a88811',GradientType=0 );
+}
+
+#main-navigation-horizontal li:first-of-type>a.active
+{
+	border-radius:0px 0px 0px 0px;
+}
+
+#main-navigation-horizontal>.navbar-nav>.dropdown>.dropdown-menu
+{
+	min-width:133px;
+}
+
+#main-navigation-horizontal>.navbar-nav>.dropdown>a.dropdown-menu a
+{
+	padding:12px 31px;
+}
+
+#main-navigation-horizontal>.navbar-nav>li>a:hover + .dropdown-menu,
+#main-navigation-horizontal .dropdown-menu:hover
+{
+	display:block;
+}
+
+/*===================== Header part ends here =====================*/
+
+/*===================== Body content starts here =====================*/
+
+.body-content .row
+{
+	margin:0px;
+}
+
+/*========= Institute moto part starts here =========*/
+.target
+{
+	height:auto;
+	width:auto;
+	padding:177px 0px 20px;
+	background-color:#f8f8f8;
+	border-bottom:1px solid #f2f2f2;
+}
+
+.target-block-1,
+.target-block-2,
+.target-block-3
+{
+	padding:31px 52px 27px 17px;
+	width:32%;
+	-moz-box-shadow:0px 7px 12px -7px rgba(0, 0, 0, 0.36);
+	-ms-box-shadow:0px 7px 12px -7px rgba(0, 0, 0, 0.36);
+	-o-box-shadow:0px 7px 12px -7px rgba(0, 0, 0, 0.36);
+	-webkit-box-shadow:0px 7px 12px -7px rgba(0, 0, 0, 0.36);
+	box-shadow:0px 7px 12px -7px rgba(0, 0, 0, 0.36);
+}
+
+.target-block-1
+{
+	background-color:#fb7033;
+}
+
+.target-block-2
+{
+	background-color:#0eaaf6;
+}
+
+.target-block-3
+{
+	background-color:#83ba3c;
+}
+
+div[class*=target-block-]:not(:last-of-type)
+{
+	margin-right:18px;
+}
+
+.block-focus
+{
+	background-color:rgba(0,0,0,0.20);
+	padding:5px 10px;
+	margin:0px 10px 0px 0px;
+	display:inline-block;
+}
+
+.block-focus>p
+{
+	font-family:'Oleo Script', cursive;
+	font-size:36px;
+	line-height:36px;
+	color:#FFFFFF;
+	width:auto;
+	height:auto;
+	margin:0px;
+	display:inline-block;
+}
+
+.block-wrapper
+{
+	display:inline-block;
+	width:75%;
+}
+
+.block-wrapper>p,
+.block-wrapper a
+{
+	color:#FFFFFF;
+}
+
+.block-wrapper>p:first-of-type
+{
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:3px 0px 0px;
+}
+
+.block-wrapper>p:last-of-type
+{
+	margin:0px;
+}
+
+.block-wrapper a
+{
+	font-size:12px;
+}
+
+.block-wrapper a:hover
+{
+	text-decoration:underline;
+}
+/*========= Institute moto part ends here =========*/
+
+/*========= Institute info part starts here =========*/
+.info-part
+{
+	width:auto;
+	height:auto;
+	background-color:#FFFFFF;
+	padding:40px 0px 20px;
+}
+
+.info-part-block
+{
+	width:32%;
+}
+
+.info-part-block:not(:last-of-type)
+{
+	margin-right:18px;
+}
+
+.info-part-block>h2,
+.mini-slider>h2
+{
+	color:#2c9dd4;
+	font-size:30px;
+	font-family:'Oleo Script', cursive;
+	margin:5px 0px 20px;
+	text-transform:capitalize;
+}
+
+.info-part-block>p
+{
+	font-size:12px;
+	color:#747474;
+	margin:0px 0px 17px;
+}
+
+.info-part-block>.btn-default
+{
+	border-radius:0px;
+	border:none;
+	color:#FFFFFF;
+	background-color:#fc8a58;
+	padding:4px 10px;
+	text-transform:capitalize;
+}
+
+.info-part-block>.btn-default:hover
+{
+	background-color:#ea5615;
+}
+
+.info-part-block>ul
+{
+	padding:0px;
+	list-style:inside;
+	margin:0px 0px 8px;
+}
+
+.info-part-block>ul>li
+{
+	list-style-type:none;
+	background:url(../images/list_arrow.jpg) no-repeat scroll 0px 7px rgba(0,0,0,0);
+	padding:0px 0px 6px 20px;
+}
+
+.info-part-block>ul>li>a
+{
+	color:#747474;
+	font-size:13px;
+	line-height:19px;
+}
+
+.info-part-block>ul>li>a:hover
+{
+	color:#0eaaf6;
+}
+
+.info-part-block .block-wrapper
+{
+	width:100%;
+	margin:0px 0px 11px;
+}
+
+.info-part-block .block-wrapper>.img-responsive
+{
+	margin:0px 7px 0px 0px;
+}
+
+.info-part-block .block-wrapper .img-thumbnail
+{
+	border:none;
+	border-radius:0px;
+	padding:0px;
+}
+
+.info-part-block .block-wrapper img
+{
+	width:130px;
+	height:85px;
+}
+
+.block-wrapper-content
+{
+	width:48%;
+	height:auto;
+}
+
+.block-wrapper-content>p,
+.block-wrapper-content>p>a
+{
+	font-size:12px;
+	color:#747474;
+}
+
+.block-wrapper-content>p:last-of-type
+{
+	margin:0px;
+	line-height:20px;
+}
+
+.block-wrapper-content>p>a
+{
+	color:#0eaaf6;
+}
+
+.block-wrapper-content>p>a:hover
+{
+	color:#fc8a58;
+	text-decoration:none;
+}
+/*========= Institute info part ends here =========*/
+
+/*========= Mini-slider part starts here =========*/
+.row-mini-slider
+{
+	padding:0px 0px 132px;
+}
+
+.mini-slider
+{
+	width:auto;
+	height:auto;
+	position:relative;
+}
+
+.mini-slider>h2
+{
+	margin:0px 0px 20px;
+}
+
+.slider-container
+{
+	height:auto;
+	width:auto;
+	position:absolute;
+	top:0px;
+	overflow:hidden;
+	padding:60px 0px 0px;
+}
+/*========= Mini-slider part ends here =========*/
+
+/*===================== Body content ends here =====================*/
+
+/*===================== Footer part starts here =====================*/
+
+footer
+{
+	width:auto;
+	height:auto;
+	background-color:#13401f;
+	padding:21px 0px 25px;
+}
+
+footer p
+{
+	margin:0px;
+	font-size:14px;
+}
+
+footer p>span
+{
+	display:inline-block;
+}
+
+footer p,
+footer p a
+{
+	color:#7d9684;
+	text-shadow:1px 0px #4c6e55;
+	text-transform:capitalize;
+}
+
+footer p a:hover
+{
+	color:#7d9684;
+}
+
+footer .pull-right
+{
+	text-align:right;
+}
+
+footer .pull-right>p>span:last-of-type>a
+{
+	text-transform:uppercase;
+}
+
+/*===================== Footer part ends here =====================*/

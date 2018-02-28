@@ -1,0 +1,85 @@
+body, 
+#mws-container
+{
+	background-image:url('../images/core/bg/paper.png');
+}
+
+#mws-sidebar, 
+#mws-sidebar-bg, 
+#mws-header, 
+.mws-panel .mws-panel-header, 
+#mws-login, 
+#mws-login .mws-login-lock, 
+.ui-accordion .ui-accordion-header, 
+.ui-tabs .ui-tabs-nav, 
+.ui-datepicker, 
+.fc-event-skin, 
+.ui-dialog .ui-dialog-titlebar, 
+.jGrowl .jGrowl-notification, .jGrowl .jGrowl-closer, 
+#mws-user-tools .mws-dropdown-menu .mws-dropdown-box, 
+#mws-user-tools .mws-dropdown-menu.open .mws-dropdown-trigger
+{
+	/*background-color:#35353a;*/
+	/*background:#3193c0; /* Old browsers */
+	background-image:url(css-gradients-fallback/main-menu-bg.png);
+	background-image:-moz-linear-gradient(top,#4cb1e0 0%,#1675a1 100%);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4cb1e0),color-stop(100%,#1675a1));
+	background-image:-webkit-linear-gradient(top,#4cb1e0 0%,#1675a1 100%);
+	background-image:-o-linear-gradient(top,#4cb1e0 0%,#1675a1 100%);
+	background-image:-ms-linear-gradient(top,#4cb1e0 0%,#1675a1 100%);
+	background-image:linear-gradient(top,#4cb1e0 0%,#1675a1 100%);*/
+	/*-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;*/
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3);
+	box-shadow:0 1px 1px rgba(0,0,0,0.3);
+}
+
+#mws-header
+{
+	/*border-color:#feb645;*/
+	border-bottom: 5px solid rgba(0, 0, 0, 0.7);
+}
+
+.mws-panel .mws-panel-header span, 
+#mws-navigation ul li.active a, 
+#mws-navigation ul li.active span, 
+#mws-user-tools #mws-username, 
+#mws-navigation ul li .mws-nav-tooltip, 
+#mws-user-tools #mws-user-info #mws-user-functions #mws-username, 
+.ui-dialog .ui-dialog-title, 
+.ui-state-default, 
+.ui-state-active, 
+.ui-state-hover, 
+.ui-state-focus, 
+.ui-state-default a, 
+.ui-state-active a, 
+.ui-state-hover a, 
+.ui-state-focus a
+{
+	color:#feb645;
+	text-shadow:0 0 6px rgba(197, 213, 42, 0.5);
+	font-weight:bold;
+}
+
+#mws-searchbox .mws-search-submit, 
+.mws-panel .mws-panel-header .mws-collapse-button span, 
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_previous, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_previous, 
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_next, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_next, 
+.dataTables_wrapper .dataTables_paginate .paginate_active, 
+.mws-table tbody tr.odd:hover td, 
+.mws-table tbody tr.even:hover td, 
+.ui-slider-horizontal .ui-slider-range, 
+.ui-slider-vertical .ui-slider-range, 
+.ui-progressbar .ui-progressbar-value, 
+.ui-datepicker td.ui-datepicker-current-day, 
+.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-next, 
+.ui-accordion-header .ui-accordion-header-icon, 
+.ui-dialog-titlebar-close
+{
+	background-color:#feb645;
+}

@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	padding-bottom:50px;
+}
+
+.content_box>.links
+{
+	width:auto;
+	height:auto;
+	position:relative;
+	padding:18px 12px;
+}
+
+.content_box>h2
+{
+	font-size:25px;
+	font-weight:normal;
+	text-transform:capitalize;
+	margin-bottom:32px;
+}
+
+.content_box>.links>h2
+{
+	display:inline-block;
+	background-color:#faeded;
+	color:#c00000;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style:italic;
+	font-weight:bold;
+	border:2px solid #7fd7f7;
+	border-radius:6px 6px;
+	padding:12px 50px;
+	margin-bottom:50px;
+	margin-left:198px;
+}
+
+.content_box>.mrg_b
+{
+	margin-bottom:16px;
+}
+
+.blog
+{
+	height:auto;
+	width:auto;
+	position:relative;
+}
+
+.blog:not(:last-of-type)
+{
+	margin-bottom:50px;
+}
+
+.blog img
+{
+	background-color:#FFF;
+	padding:6px 6px;
+	margin-right:20px;
+}
+
+.content_box>.links>.row:not(:last-of-type)
+{
+	margin-bottom:35px;
+}
+
+.content_box>.links>.row>.blog
+{
+	width:330px;
+	margin-bottom:0px;
+	position:relative;
+}
+
+.content_box>.links>.row>.blog img
+{
+	padding:2px 2px;
+	margin-right:10px;
+}
+
+.content_box>.links>.row>.blog>.blank
+{
+	width:88px;
+	height:127px;
+	border:1px solid #990000;
+	background-color:#d6f2f6;
+	margin-right:10px;
+}
+
+.content_box>.links>.row>.blog>.blog_cntnt:nth-of-type(2)
+{
+	width:203px;
+	background-color:#faeded;
+	color:#000;
+	border:1px solid #7fd7f7;
+	padding-top:5px;
+	padding-left:5px;
+	position:relative;
+	top:40px;
+}
+
+.content_box>.links>.row>.blog>.blog_cntnt:nth-of-type(2)>p
+{
+	text-transform:capitalize;
+}
+
+.content_box>.links>.row>.blog>.blog_cntnt:nth-of-type(2)>p:first-of-type
+{
+	font-size:13px;
+	font-weight:bold;
+}
+
+.blog_cntnt
+{
+	width:auto;
+	height:auto;
+}
+
+.blog_cntnt>h4
+{
+	font-size:20px;
+	font-weight:bold;
+	padding-top:15px;
+	margin-bottom:15px;
+	text-transform:capitalize;
+}
+
+.blog_cntnt .pd_t
+{
+	padding-top:5px;
+}
+
+.links_extra
+{
+	width:auto;
+	height:auto;
+	font-size:12px;
+	margin-bottom:20px;
+}
+
+.links_extra time
+{
+	background:url(../images_02/cal_icon.png) no-repeat scroll 0px 1px rgba(0, 0, 0, 0);
+    display:inline-block;
+    margin-right:12px;
+    padding-left:18px;
+	font-size:11px;
+}
+
+.links_extra span>a
+{
+	background:url(../images_02/user.png) no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    display:inline-block;
+    margin-right:12px;
+    padding-left:18px;
+	color:#FFF;
+}
+
+.links_extra>a
+{
+	background:url(../images_02/comment.png) no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    display:inline-block;
+    margin-right:12px;
+    padding-left:18px;
+	font-size:11px;
+	color:#FFF;
+}
+
+.blog_cntnt>p
+{
+	margin-bottom:15px;
+	text-align:justify;
+}
+
+.blog_cntnt>p>span
+{
+	background:url(../images_02/dot.png) no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+	padding-left:13px;
+}
+
+.blog_cntnt>a
+{
+	color:#FFF;
+	background:#CCC;
+	padding:2px 4px;
+}
+
+.blog_r
+{
+	width:500px;
+}
+
+.blog_r>p
+{
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+.row
+{
+	width:auto;
+	height:auto;
+	padding:8px 5px;
+}
+
+.row>.row
+{
+	padding:0px;
+	margin:0px;
+}
+
+.row>.row[class~=fl_l]
+{
+	width:120px;
+	height:auto;
+}
+
+.row>.row[class~=fl_r]
+{
+	width:320px;
+	height:auto;
+}
+
+.row:last-of-type>.row[class~=fl_r] button:first-of-type
+{
+	margin-left:13px;
+}
+
+form[id=form_contact_us]>.row>.row[class~=textarea]:before
+{
+	content:": ";
+	font-weight:bold;
+	position:relative;
+	padding-right:4px;
+	top:-91px;
+}
+
+.row:not(:last-of-type)>.row[class~=fl_r]:before
+{
+	content:": ";
+	font-weight:bold;
+	position:relative;
+	padding-right:4px;
+	top:-2px;
+}
+
+input,textarea
+{
+	border:1px solid #CCC;
+}
+
+label
+{
+	position:relative;
+	top:3px;
+}
+
+textarea
+{
+	resize:none;
+	height:100px;
+}
+
+.textarea
+{
+	height:auto;
+	width:auto;
+}
+
+.input
+{
+	width:250px;
+	padding:4px 6px;
+	background-color:#708F8B;
+	color:#333;
+}
+
+.row button
+{
+	padding:4px 9px;
+	border:none;
+	color:#FFF;
+	background-color: #595959;
+	-moz-box-shadow:inset 2px 2px 14px 7px #333333;
+	-webkit-box-shadow:inset 2px 2px 14px 7px #333333;
+	box-shadow:inset 2px 2px 14px 7px #333333;
+	border-radius:2px 2px;
+	cursor:pointer;
+}
+
+.row_gl
+{
+	width:130px;
+	height:auto;
+	margin-right:6px;
+}
+
+
+
